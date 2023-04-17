@@ -1,0 +1,23 @@
+
+  .products {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    
+  }
+
+  @media(max-width: 992px){
+    .products{
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media(max-width: 768px){
+    .products{
+        grid-template-columns: 1fr;
+    }
+  }
+  
+ 

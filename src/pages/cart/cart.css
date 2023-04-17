@@ -1,0 +1,24 @@
+
+.card{
+    width: 80%;
+    height: 25vh;
+    margin: auto;
+}
+
+.shoppingBtn{
+  
+
+}
+
+@media(max-width: 768px){
+    .card{
+        width: 100%;
+        height: 20vh;
+    }
+  }
+
+  @media(max-width: 1200px){
+    .card{
+        height: 40vh;
+    }
+  }

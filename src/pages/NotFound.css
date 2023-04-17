@@ -1,0 +1,21 @@
+.glass-bg {
+    background-image: url('https://i.imgur.com/X3qosNs.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .glass-container {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    color: #fff;
+  }
+  
+  .glass-container h1,
+  .glass-container p {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+  }
+  
+  .glass-container button {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+  }
+  
