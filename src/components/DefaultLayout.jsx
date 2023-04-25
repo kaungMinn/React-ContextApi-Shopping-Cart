@@ -15,7 +15,7 @@ const DefaultLayout = () => {
     <>
         <Navbar bg="light" variant="light" className='sticky-top'>
             <Container>
-            <Link className="navbar-brand d-flex text-secondary" to="/" style={styles}>Kaung     <span className='text-primary'>&nbsp;Mobile</span> <DeviceMobile size={20} className="text-primary"/></Link>
+            <Link className="navbar-brand d-flex text-secondary" to="/" >Kaung     <span className='text-primary'>&nbsp;Mobile</span> <DeviceMobile size={20} className="text-primary"/></Link>
             <Nav>
                 
                 <div className='d-flex justify-content-between align-items-center'>
